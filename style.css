@@ -1,0 +1,694 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    }
+
+#bodyWrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.positionCenter{
+    position: center;
+}
+
+.white{
+    background-color: black;
+    color: white;
+}
+
+.black{
+    background-color: white;
+    color: black;
+}
+
+#header{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+    padding-right: 30px;
+    display: block;
+    margin: auto;
+}
+
+#wechselAnimation{
+    z-index: 2;
+    position: relative;
+}
+
+.widthHeight{
+    width: 100%;
+    height: auto;
+}
+
+#NameProdukt{
+    float: left;
+    position: relative;
+    color: white;
+    font-size: 40px;
+    bottom: 150px;
+}
+
+.buttonMitBorder{
+    border: solid white 2px;
+    width: 100%;
+    height: 65px;
+}
+
+.fontSize15px{
+    font-size: 15px;
+}
+
+.bilderAnzeige{
+    width: 100%;
+}
+
+.paddingLeft20{
+    padding-left: 20px;
+}
+
+.paddingLeft40{
+    padding-left: 40px;
+}
+
+.paddingBottomTop20{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#konfigurierenButton {
+    background-color: black;
+    color: white;
+}
+
+
+.buttons{
+    position: center;
+    top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px
+}
+
+#divButton{
+    margin-bottom: 40px;
+}
+
+#Kraftstoffinfos {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -10px;
+}
+
+#textBildAnimation{
+    background-color: white;
+    z-index: 0;
+}
+
+#bildDivProdukt{
+    position: relative;
+    z-index: 0;
+}
+
+#vorstellungDiv{
+    position: absolute;
+}
+
+
+#divProduktHand{
+    position: relative;
+    z-index: 2;
+    order: 2;
+}  
+
+#wechsel{
+    order: 1;
+}
+
+#divHand{
+    z-index: 2;
+}
+        
+#bilderWechseln{
+    z-index: 2;
+}
+
+#buttonWechsel{   
+    margin-top: 30px;
+}
+
+#pfeileGedreht{
+    padding-left: 25px;
+}
+
+.opacity0{
+    opacity: 0;
+}
+
+#buttonWechsel button{
+    border: none;
+}
+
+.h2Light{
+    font-weight: lighter;
+}
+
+.h2Lighter{
+    font-weight: 500;
+}
+
+
+.positionRelative{
+    position: relative;
+}
+
+.paddingBottom20{
+    padding-bottom: 20px;
+}
+
+#imgWiederholenPlay{
+    z-index: 2;
+    position: center;
+}
+
+#konfiguration{
+    margin-top: 0px;
+    z-index: 0;
+}
+
+.fontWeightBold{
+    font-weight: bold;
+}
+
+.fontWeightLight{
+    font-weight: lighter;
+}
+
+@media (max-width: 768px){
+
+    .divPosition{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    #bildProdukt{
+        margin-top: -100px;
+    }
+
+    #infos{
+        height: 550px;
+        position: absolute;
+        margin-top: -10px;
+        padding: 0%;
+        z-index: 2;
+    }
+
+    #neuwagenButton {
+        background-color: white;
+    }
+
+    #gebrauchtwagenButton {
+        background-color: transparent;
+        color: white;
+    }
+
+    #Kraftstoffinfos p {
+        padding-left: 20px;
+        margin-top: -10px;
+    }
+
+    #videoKugel{
+        content: url("Medien/Kugel_Video.mp4");
+    }
+
+    #bildProduktKugel{
+        z-index: 0;
+    }
+
+    .h2Lighter{
+        font-size: 30px;
+    }
+
+    #vorstellung{
+        position: absolute;
+        width: 450px;
+        height: auto;
+        padding: 20px;
+        margin-left: 40px;
+    }
+
+    #vorstellungDiv{
+        margin-top: -200px;
+    }
+
+    hr{
+        margin-top: -1px;
+        width: 10px;
+        height: 1.5px;
+        background-color: black;
+        border: none;
+        padding-left: 1px;
+    }
+
+    #buttonWechsel span{
+        font-size: 18px;
+        padding-left: 5px;
+        padding-right: 5px; 
+    }
+
+    #buttonWechsel button{
+        font-size: 12px;
+    }
+
+    #textBeschreibung{
+        padding: 20px;
+    }
+
+    #buttonStart{
+        text-align: center;
+        vertical-align: middle;
+        bottom: 500px;
+        z-index: 2;
+    }
+
+    #svgPlayStop{ 
+        background-color: none;
+    }
+
+    .paddingLeftRight60{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    
+    .padding60{
+        padding: 60px;
+    }
+
+    #divKaufen{
+        padding-left: 60px;
+        padding-right: 150px;
+        padding-bottom: 20px;
+    }
+
+    footer {
+        display: block;
+      }
+}
+
+@media (min-width: 769px) and (max-width:1023px){
+    
+    #bildProdukt{
+        margin-top: -100px;
+    }
+
+    #infos{
+        height: 400px;
+        position: absolute;
+        margin-top: -10px;
+        padding: 0%;
+        z-index: 2;
+    }
+
+    .flex-div{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .buttons{
+        width: 350px;
+        justify-content: space-around;
+        gap: 5px;
+    }
+
+    #NameProdukt{
+        margin-top: -100px;
+    }
+
+    #neuwagenButton {
+        background-color: white;
+        flex-basis: 50px;
+        width: 150px;
+    }
+
+    #gebrauchtwagenButton {
+        background-color: transparent;
+        color: white;
+        width: 200px;
+    }
+
+    #divButton{
+        margin-left: 25px;
+        margin-top: -100px
+    }
+
+    #Kraftstoffinfos p {
+        padding-left: 20px;
+        margin-top: -10px;
+    }
+
+    #Kraftstoffinfos{
+        padding-top: 20px;
+    }
+
+    .h2Lighter{
+        font-size: 35px;
+    }
+
+    #videoKugel{
+        content: url("Medien/Kugel_Video.mp4");
+    }
+
+    #bildProduktKugel{
+        z-index: 0;
+    }
+
+    .divPosition{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    #vorstellung{
+        position: absolute;
+        width: 600px;
+        height: auto;
+        margin-left: 50px;
+        margin-top: -460px;
+        padding: 20px;
+    }
+
+    #vorstellungDiv{
+        margin-top: -500;
+    }
+
+    #buttonWechsel button{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    hr{
+        margin-top: 0.5px;
+        width: 10px;
+        height: 1.5px;
+        background-color: black;
+        border: none;
+        padding-left: 4px;
+        margin-left: 2px;
+    }
+
+    #buttonStart{
+        text-align: center;
+        vertical-align: middle;
+        bottom: 800px;
+        z-index: 2;
+    }
+
+    #divKugelTextButton{
+        width: 100%;
+        justify-content: space-between;
+        gap: 2px;
+    }
+
+    #bildBlaueKugel{
+        width: 50%;
+    }
+
+    #textZweiButton{
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #divKaufen{
+        padding-bottom: 20px;
+        margin-right: 100px;
+    }
+
+    .padding60{
+        padding-left: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .paddingLeftRight60{
+        padding-left: 20px;
+        padding-right: 60px;
+    }
+
+    #konfiguration{
+        margin-top: 0px;
+        z-index: 0;
+    }
+      
+}
+
+@media (min-width: 1024px){
+
+    .widthHeightBild{
+        width: 100%;
+        height: 100%;
+    }
+
+    #bildProdukt{
+        margin-top: -100px;
+        content: url("Medien/KugelSteinVertikalAb.jpeg");
+    }
+
+    #bildProduktWeiter{
+        content: url("Medien/KugelSteinVertikalAb.jpeg");
+    }
+    
+    #videoKugel{
+        width: 50%;
+        flex-basis: 200px;
+        margin-left: 350px;
+        content: url("Medien/KugelRollt.mp4");
+    }
+
+
+    #infos{
+        height: 550px;
+        position: absolute;
+        margin-top: -10px;
+        padding: 0%;
+        z-index: 2;
+    }
+
+    .flex-div{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .flex-divChange{
+        display: flex;
+        align-items: stretch;
+    }
+    
+    .buttons{
+        width: 350px;
+        justify-content: space-around;
+        gap: 5px;
+    }
+
+    #NameProdukt{
+        float: left;
+        position: relative;
+        color: white;
+        font-size: 50px;
+        bottom: 130px;
+        left: 300px;
+    }
+
+    #neuwagenButton {
+        background-color: white;
+        flex-basis: 50px;
+        width: 150px;
+    }
+
+    #gebrauchtwagenButton {
+        background-color: transparent;
+        color: white;
+        width: 200px;
+    }
+
+    #divButton{
+        margin-left: 300px;
+    }
+
+    #Kraftstoffinfos p {
+        float: left;
+        padding-left: 20px;
+        margin-top: -10px;
+    }
+
+    #Kraftstoffinfos{
+        margin-left: 300px;
+        width: 800px;
+    }
+
+    #bildProduktKugel{
+        margin-top: 100px;
+        z-index: 0;
+        content: url("Medien/Kugel_frontalAb.jpeg");
+    }
+
+    .divPosition{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    #vorstellung{
+        position: absolute;
+        width: 800px;
+        height: auto;
+        margin-left: 100px;
+        margin-top: -700px;
+        padding: 20px;
+        padding-bottom: 100px;
+    }
+
+    #buttonWechsel{
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+
+    #textWechsel{
+        margin-left: 80px;
+        margin-right: 50px;
+        width: 60%;
+    }
+
+    #buttonWechsel button{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    hr{
+        margin-top: 0.5px;
+        width: 10px;
+        height: 1.5px;
+        background-color: black;
+        border: none;
+        padding-left: 4px;
+        margin-left: 2px;
+    }
+
+    #buttonStart{
+        text-align: center;
+        vertical-align: middle;
+        bottom: 800px;
+        z-index: 2;
+    }
+
+    #divKugelTextButton{
+        width: 100%;
+        justify-content: space-between;
+        gap: 2px;
+    }
+
+    #bildBlaueKugel{
+        width: 30%;
+    }
+
+    #textZweiButton{
+        margin-top: 300px;
+        width: 50%;
+    }
+
+    #divKaufen{
+        padding-bottom: 20px;
+        margin-right: 100px;
+    }
+
+    .padding60{
+        padding-left: 300px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .paddingLeftRight60{
+        padding-left: 40px;
+        padding-right: 60px;
+    }
+
+    .paddingLeft20{
+        padding-left: 40px;
+    }
+
+    #konfigurierenButton{
+        margin-left: 500px;
+    }
+
+    .buttons{
+        padding-left: 40px;
+    }
+
+    #konfiguration{
+        margin-top: 100px;
+        margin-left: 400px;
+        z-index: 0;
+        position: center;
+        width: 600px;
+    }
+
+    .marginLeft400{
+        margin-left: 400px;
+        width: 800px;
+    }
+
+    #divVideoText{
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 200px;
+    }
+
+    #divProduktHand{
+        flex-grow: 20;
+    }
+
+    #wechsel{
+        flex-grow: 4;
+    }
+
+    #textBeschreibung{
+        margin-left: 500px;
+
+    }
+
+    .marginLeft{
+        margin-left: 500px;
+    }
+
+    .h2Lighter{
+        font-size: 50px;
+    }
+
+    .h2Light{
+        font-size: 35px;
+    }
+
+    .pFontSize{
+        font-size: 20px;
+    }
+}

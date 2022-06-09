@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oudi</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="bodyWrapper">
+
+        <div id="header">
+           <div><img alt="logo" id="logo" src="Medien/LogoFett.png"></div>  
+        </div>
+        
+        <div class="widthHeight">
+            <div><img class="widthHeight" alt="bildProdukt" id="bildProdukt" src="Medien/Kugel_Stein.jpeg"></div>      
+        </div>
+
+        <div class="widthHeight" id="NameProdukt">
+            <div class="paddingLeft40"><h2 class="h2Lighter"> K8 Rounding <!-- V0 <br/> performance NWD <i id="nwd">(None-Wheel Drive)</i> --></h2></div>
+        </div>
+        
+        <div class="white widthHeight bilderAnzeige" id="infos">
+            <div class="buttons flex-div" id="divButton">
+                <div class="bilderAnzeige" id="divNeuwagen">
+                    <button  class="buttonMitBorder fontSize15px" id="neuwagenButton">Neukugel</button>
+                </div>
+                <div id="divGebrauchtwagen">
+                    <button class="buttonMitBorder fontSize15px" id="gebrauchtwagenButton">Gebrauchtkugel</button>
+                </div>
+            </div>
+            <div id="Kraftstoffinfos">
+                <p>CO2-Emissionen: 0 g/km</p>
+                <p>Kraftstoffverbrauche kombiniert: 0l/100km</p>
+                <p>Angaben zu Schnelligkeit und Bodenhaftung in  Abhängig vom verwendeten Material.</p>
+            </div>
+        </div>
+
+        <div class="widthHeight" id="textBildAnimation" >  
+            <div id="bildDivProdukt" >
+                <img  class="widthHeight" id="bildProduktKugel" src="Medien/Kugel_frontal.jpeg">
+            </div>  
+        </div>
+
+        <div class="widthHeight">
+            <div class="widthHeight" id="vorstellungDiv">
+                <div class="widthHeight black" id="vorstellung">
+                    <h2 class="h2Lighter">Leise, 
+                        dynamisch,
+                        klein</h2>
+                    <p class="pFontSize">Der K8 Rounding – die erste Generation unseres erfolgreichen Kompakten besticht mit einem runden Design und flexiblen Einsatzmöglichkeiten.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex-divChange widthHeight" id="wechselAnimation">
+            <div id="divProduktHand" class="black bilderAnzeige">
+                <div class="widthHeight" id="divHand">
+                    <img class="widthHeight" id="bilderWechseln" src="Medien/KugelHand.jpeg">
+                </div>
+            </div>
+            <div class="black bilderAnzeige widthHeight" id="wechsel">
+                <div class="widthHeight">
+                    <div class="widthHeight" id="buttonWechsel">
+                        <button class="black"><small id="pfeileGedreht">&lt;</small></button>
+                        <button class="black" id="erstesBildText">
+                            <span class="black fontWeightBold" id="number1">1</span>
+                            <hr id="hr1">
+                        </button>
+                        <button class="black" id="zweiterBildText">
+                            <span class="black fontWeightLight" id="number2">2</span>
+                            <hr class="opacity0" id="hr2">
+                        </button>
+                        <button class="black" id="dritterBildText">
+                            <span class="black fontWeightLight" id="number3">3</span>
+                            <hr class="opacity0" id="hr3">
+                        </button>
+                        <button class="black"><small id="pfeile">&gt;</small></button>
+                    </div>
+                    <div class="widthHeight" id="textWechsel">
+                        <div class="widthHeight paddingBottomTop20">
+                            <h2 class="paddingLeft20 h2Light" id="h2Ueberschrift">Exterieur</h2>
+                            <p class="paddingLeft20 pFontSize" id="textDiv">Mit dynamischer Linienführung stellt der Oudi K8 Rounding seinen rundlichen Charakter unter Beweis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="black widthHeight positionCenter">
+                <div class="widthHeight paddingBottomTop20" id="konfiguration">
+                    <h2 class="paddingLeft20 h2Lighter">Konfiguration</h2>
+                    <p class="paddingLeft20 pFontSize">Kombinieren Sie verschiedene Lackierungen und Material miteinander und erleben Sie den Oudi K8 Rounding<!--in der interaktiven 3D-Ansicht-->.</p>
+                </div>
+                <div class="buttons">
+                    <div class="bilderAnzeige">
+                        <button  class="buttonMitBorder fontSize15px" id="konfigurierenButton">Konfigurieren</button>
+                    </div>   
+                </div>     
+            </div>
+        </div>
+
+        <div class="white widthHeight">
+            <div class="white widthHeight" onclick="start()">
+                <video class="widthHeight" id="videoKugel" playsinline muted> 
+                    <source id="source" src="Medien/Kugel_Video.mp4">
+                </video> 
+                <div class="positionRelative" id="buttonStart">
+                    <img class="paddingLeft20"  id="imgWiederholenPlay" src="Medien/playButton.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="white widthHeight">
+            <div class="white widthHeight">
+                <div class="widthHeight paddingBottomTop20 marginLeft400">
+                    <h2 class="paddingLeft20 h2Lighter">Rollspaß garantiert</h2>
+                    <p class="paddingLeft20 pFontSize">Dank unserem breiten Größenangebot ist der Oudi K8 Rounding für verschiedene Strecken gut gerüstet. 
+                        Das stärkste Aggregat, ein im Durchmessser 2cm große Kugel.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="widthHeight">
+            <div><img class="widthHeight" alt="bildProdukt" id="bildProduktWeiter" src="Medien/Kugel_Stein.jpeg"></div>      
+        </div>    
+
+        <div class="widthHeight paddingBottom20">
+            <div class="widthHeight paddingBottomTop20 marginLeft400">
+                <h2 class="paddingLeft20 h2Lighter">Live-Beratung</h2>
+                <p class="paddingLeft20 pFontSize">Das Premium-Rollerlebnis der Zukunft ist digital. Sichern Sie sich jetzt einen Termin für eine Online-Live-Beratung. 
+                    Der gebuchte Oudi Händler nimmt Sie mittels Datenbrille mit zum Oudi K8 Rounding, erklärt Ihnen alle Ausstattungen und berät Sie.</p>
+            </div>
+        </div>
+
+        <div class="widthHeight paddingBottom20 flex-div" id="divKugelTextButton">
+            <div class="padding60" id="bildBlaueKugel"><img class="widthHeight" src="Medien/blaueKugel.jpeg"></div>     
+            <div class="widthHeight" id="textZweiButton">
+                <h2 class="paddingLeftRight60 h2Lighter">K8 Rounding</h2>
+                <p class="paddingLeftRight60">CO2-Emissionen: 0 g/km</p>
+                <p class="paddingLeftRight60">Kraftstoffverbrauche kombiniert: 0l/100km</p>
+                <p class="paddingLeftRight60">Angaben zu Schnelligkeit und Bodenhaftung in  Abhängig vom verwendeten Material.</p>
+                <div class="buttons" id="divKaufen">
+                    <div class="bilderAnzeige" >
+                        <button  class="white buttonMitBorder fontSize15px" id="kaufenButton">Kaufen</button>
+                    </div>
+                    <div id="divGebrauchtwagen">
+                        <button class=" white buttonMitBorder fontSize15px" id="probeKugelnnButton">Probe Kugeln</button>
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+
+    </div>
+    <footer>
+    <div class=" white widthHeight">
+        <div>
+        </div>
+    </div></footer>
+    <script src="oudi.js"></script>
+</body>
+</html>
