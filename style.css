@@ -205,6 +205,10 @@ html, body {
     padding-bottom: 20px;
 }
 
+.paddingTop10{
+    padding-top: 2px;
+}
+
 @media (max-width: 768px){
 
     .divPosition{
@@ -238,6 +242,7 @@ html, body {
     #Kraftstoffinfos p {
         padding-left: 20px;
         margin-top: -10px;
+        font-size: 12px;
     }
 
     #videoKugel{

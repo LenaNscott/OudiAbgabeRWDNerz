@@ -175,7 +175,7 @@ function anzeige(int){
     document.getElementById("hr3").style.opacity = 1;
     document.getElementById("number3").style.fontWeight = "bold";
     let bild = document.getElementById("bilderWechseln");
-    bild.src = "Medien/KugelNatur.jpeg";
+    bild.src = "Medien/KugelHand.jpeg";
     document.getElementById("textDiv").innerText = "Machen Sie mit dem Oudi K8 Rounding jeden Weg und jede Straße zu Ihrem Revier.";
     document.getElementById("h2Ueberschrift").innerText = "Rollerlebnis";
   }
@@ -190,7 +190,7 @@ document.getElementById('videoKugel').addEventListener('ended',myHandler,false);
   };
 
   document.getElementById("videoKugel").load();
-  
+
   function start(){
     let videoKugel = document.getElementById("videoKugel").play();
     divPlayStop.style.opacity = 0;
