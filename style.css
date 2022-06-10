@@ -507,7 +507,7 @@ html, body {
 
 
     #infos{
-        height: 550px;
+        height: 400px;
         position: absolute;
         margin-top: -10px;
         padding: 0%;
@@ -537,8 +537,11 @@ html, body {
         color: white;
         font-size: 50px;
         bottom: 130px;
-        left: 300px;
         margin-top: -80px;
+    }
+
+    .marginLeft300{
+        margin-left: 300px;
     }
 
     #neuwagenButton {
@@ -585,11 +588,12 @@ html, body {
 
     #vorstellung{
         position: absolute;
-        width: 800px;
+        width: 700px;
         height: auto;
         margin-left: 100px;
-        margin-top: -700px;
+        margin-top: -400px;
         padding: 20px;
+        padding-left: 40px;
         padding-bottom: 100px;
     }
 
@@ -638,6 +642,7 @@ html, body {
 
     #textZweiButton{
         margin-top: 300px;
+        padding-right: 20px;
         width: 50%;
     }
 
@@ -662,7 +667,8 @@ html, body {
     }
 
     #konfigurierenButton{
-        margin-left: 500px;
+        margin-left: 400px;
+        margin-bottom: 20px;
     }
 
     .buttons{
@@ -714,5 +720,13 @@ html, body {
 
     .pFontSize{
         font-size: 20px;
+    }
+
+    .widthDesktop{
+        width: 50%;
+    }
+
+    .h2Lighterere{
+        font-size: 50px;
     }
 }

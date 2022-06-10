@@ -79,13 +79,13 @@ window.addEventListener('scroll', function() {
     wechselBild.style.marginTop = - (window.pageYOffset) * 0.14 + "px";
     }
     else if(window.matchMedia("(min-width:679px) and (max-width:1023px)").matches){
-      bild.style.height = 400 - (window.pageYOffset) * 0.2 + "px";  
+      bild.style.height = 100 - (window.pageYOffset) * 0.2 + "px";  
       text.style.marginTop = -500 - (window.pageYOffset) * 0.2 + "px";
       wechselBild.style.marginTop = - (window.pageYOffset) * 0.14 + "px";
       }
     else if(window.matchMedia("(min-width:1024px)").matches){
-      bild.style.height = 550 - (window.pageYOffset) * 0.2 + "px";  
-      text.style.marginTop = -700 - (window.pageYOffset) * 0.2 + "px";
+      bild.style.height = 400 - (window.pageYOffset) * 0.2 + "px";  
+      text.style.marginTop = -400 - (window.pageYOffset) * 0.2 + "px";
       wechselBild.style.marginTop = - (window.pageYOffset) * 0.14 + "px";
       }  
   }  
