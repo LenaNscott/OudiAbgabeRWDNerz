@@ -262,11 +262,12 @@ html, body {
     }
 
     #vorstellungDiv{
-        margin-top: -40px;
+        margin-top: 30px;
     }
 
     .h2Lighterere{
         font-size: 25px;
+        font-weight: lighter;
     }
 
     hr{

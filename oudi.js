@@ -189,6 +189,8 @@ document.getElementById('videoKugel').addEventListener('ended',myHandler,false);
     divPlayStop.style.opacity = 1;
   };
 
+  document.getElementById("videoKugel").load();
+  
   function start(){
     let videoKugel = document.getElementById("videoKugel").play();
     divPlayStop.style.opacity = 0;
