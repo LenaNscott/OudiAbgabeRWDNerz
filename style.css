@@ -667,7 +667,6 @@ html, body {
     }
 
     #konfigurierenButton{
-        margin-left: 400px;
         margin-bottom: 20px;
     }
 
@@ -677,14 +676,13 @@ html, body {
 
     #konfiguration{
         margin-top: 100px;
-        margin-left: 400px;
         z-index: 0;
         position: center;
         width: 600px;
     }
 
-    .marginLeft400{
-        margin-left: 400px;
+    .marginLeft250{
+        margin-left: 250px;
     }
 
     #divVideoText{
