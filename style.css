@@ -60,6 +60,7 @@ html, body {
     color: white;
     font-size: 40px;
     bottom: 150px;
+    margin-top: -80px;
 }
 
 .buttonMitBorder{
@@ -105,6 +106,7 @@ html, body {
 
 #divButton{
     margin-bottom: 40px;
+    margin-top: -130px;
 }
 
 #Kraftstoffinfos {
@@ -211,7 +213,7 @@ html, body {
     }
 
     #infos{
-        height: 550px;
+        height: 350px;
         position: absolute;
         margin-top: -10px;
         padding: 0%;
@@ -246,14 +248,14 @@ html, body {
 
     #vorstellung{
         position: absolute;
-        width: 450px;
+        width: 250px;
         height: auto;
         padding: 20px;
         margin-left: 40px;
     }
 
     #vorstellungDiv{
-        margin-top: -200px;
+        margin-top: -150px;
     }
 
     hr{
@@ -337,7 +339,7 @@ html, body {
     }
 
     #NameProdukt{
-        margin-top: -100px;
+        margin-top: -60px;
     }
 
     #neuwagenButton {
@@ -515,6 +517,7 @@ html, body {
         font-size: 50px;
         bottom: 130px;
         left: 300px;
+        margin-top: -80px;
     }
 
     #neuwagenButton {
@@ -531,6 +534,7 @@ html, body {
 
     #divButton{
         margin-left: 300px;
+        margin-top: -80px;
     }
 
     #Kraftstoffinfos p {
