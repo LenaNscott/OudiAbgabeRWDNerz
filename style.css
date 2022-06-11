@@ -499,7 +499,7 @@ html, body {
     }
     
     #videoKugel{
-        width: 50%;
+        width: 100%;
         flex-basis: 200px;
         margin-left: 350px;
         content: url("Medien/KugelRollt.mp4");
