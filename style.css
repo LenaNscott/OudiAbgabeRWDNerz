@@ -490,19 +490,18 @@ html, body {
     }
 
     #bildProdukt{
-        margin-top: -100px;
-        content: url("Medien/KugelSteinVertikalAb.jpeg");
+        margin-top: -250px;
+        content: url("Medien/weisseKugelGebaudeHorizontal.jpg");
     }
 
     #bildProduktWeiter{
-        content: url("Medien/KugelSteinVertikalAb.jpeg");
+        content: url("Medien/RoteKuhelSonnenuntergang.jpeg");
     }
     
     #videoKugel{
         width: 100%;
         flex-basis: 200px;
-        margin-left: 350px;
-        content: url("Medien/KugelRollt.mp4");
+        content: url("Medien/videoWeisseKugel_Slomo.mp4");
     }
 
 
@@ -573,9 +572,8 @@ html, body {
     }
 
     #bildProduktKugel{
-        margin-top: 100px;
         z-index: 0;
-        content: url("Medien/Kugel_frontalAb.jpeg");
+        content: url("Medien/weissHausHorizontal.jpeg");
     }
 
     .divPosition{

@@ -31,7 +31,7 @@ function aenderungVideoSrc(aendernInt){
   if(aendernInt == 0){
     var source = document.getElementById('source');
     var video = document.getElementById('videoKugel');
-    source.src = "Medien/KugelRollt.mp4";
+    source.src = "Medien/videoWeisseKugel_Slomo.mp4";
     video.load();
     aenderungVideo = 1;
   }
@@ -157,7 +157,7 @@ function anzeige(int){
     document.getElementById("hr1").style.opacity = 1;
     document.getElementById("number1").style.fontWeight = "bold";
     let bild = document.getElementById("bilderWechseln");
-    bild.src = "Medien/KugelHand.jpeg";
+    bild.src = "Medien/RoteKuhelSonnenuntergang.jpeg";
     document.getElementById("textDiv").innerText = "Mit dynamischer Linienführung stellt der Oudi K8 Rounding seinen rundlichen Charakter unter Beweis.";
     document.getElementById("h2Ueberschrift").innerText = "Exterieur";
   }
@@ -165,7 +165,7 @@ function anzeige(int){
     document.getElementById("hr2").style.opacity = 1;
     document.getElementById("number2").style.fontWeight = "bold";
     let bild = document.getElementById("bilderWechseln");
-    bild.src = "Medien/KugelSteinVertikal.jpeg";
+    bild.src = "Medien/roteKuglTurmH.jpg";
     document.getElementById("textDiv").innerText = "Der Innenraum des Oudi K8 Rounding ist hochwertig gestaltet.";
     document.getElementById("h2Ueberschrift").innerText = "Interieur";
   }
@@ -173,7 +173,7 @@ function anzeige(int){
     document.getElementById("hr3").style.opacity = 1;
     document.getElementById("number3").style.fontWeight = "bold";
     let bild = document.getElementById("bilderWechseln");
-    bild.src = "Medien/KugelHand.jpeg";
+    bild.src = "Medien/KugelSteinVertikal.jpeg";
     document.getElementById("textDiv").innerText = "Machen Sie mit dem Oudi K8 Rounding jeden Weg und jede Straße zu Ihrem Revier.";
     document.getElementById("h2Ueberschrift").innerText = "Rollerlebnis";
   }
