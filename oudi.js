@@ -2,46 +2,20 @@
 
 
 document.getElementById("videoKugel").load();
-let aenderungVideo = 0;
-console.log(screen.width);
+aenderungVideoSrc();
 
-if(screen.width >= 1024 && aenderungVideo == 0){
-  console.log(source.src);
-  aenderungVideoSrc(aenderungVideo);
-}
-else if(679 > screen.width && aenderungVideo == 1){
-  console.log(source.src);
-  aenderungVideoSrc(aenderungVideo);
-}
+window.addEventListener('resize', aenderungVideoSrc);
 
-window.addEventListener('resize', function() {
-  console.log(window.pageYOffset);
-  if(window.pageYOffset >= 1024 && aenderungVideo == 0){
-    console.log(source.src);
-    aenderungVideoSrc(aenderungVideo);
-  }
-  else if(679 > window.pageYOffset && aenderungVideo == 1){
-    console.log(source.src);
-    aenderungVideoSrc(aenderungVideo);
-  }
-  
-});
-
-function aenderungVideoSrc(aendernInt){
-  if(aendernInt == 0){
+function aenderungVideoSrc(){
     var source = document.getElementById('source');
     var video = document.getElementById('videoKugel');
-    source.src = "Medien/videoWeisseKugel_Slomo.mp4";
+    if(window.innerWidth >= 679 && source.src.slice(source.src.length-22) == "Medien/Kugel_Video.mp4"){
+      source.src = "Medien/videoWeisseKugel.mp4";
+    }
+    else if(window.innerWidth < 679 && source.src.slice(source.src.length-22) == "n/videoWeisseKugel.mp4"){
+      source.src = "Medien/Kugel_Video.mp4";
+    }    
     video.load();
-    aenderungVideo = 1;
-  }
-  else if(aendernInt == 1){
-    var source = document.getElementById('source');
-    var video = document.getElementById('videoKugel');
-    source.src = "Medien/Kugel_Video.mp4";
-    video.load();
-    aenderungVideo = 0;
-  }
 }
 
 function myFunction() {
