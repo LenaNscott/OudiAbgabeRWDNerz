@@ -106,14 +106,13 @@ html, body {
 }
 
 #divButton{
-    margin-bottom: 40px;
-    margin-top: -130px;
+    margin-top: -145px;
 }
 
 #Kraftstoffinfos {
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: -10px;
+    margin-top: 20px;
 }
 
 #textBildAnimation{
@@ -210,6 +209,11 @@ html, body {
     margin-top: -10px;
 }
 
+.paddingLeftTop20{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
 @media (max-width: 768px){
 
     .divPosition{
@@ -217,6 +221,10 @@ html, body {
         height: auto;
         padding: 20px;
         margin-top: 20px;
+    }
+
+    .marginBottom5px{
+        margin-bottom: 5px;
     }
 
     #bildProdukt{
@@ -263,7 +271,7 @@ html, body {
         width: 250px;
         height: auto;
         padding: 20px;
-        padding-top: -350px;
+        padding-top: 10px;
         margin-left: 40px;
     }
 
@@ -330,9 +338,17 @@ html, body {
         padding-bottom: 20px;
     }
 
-    footer {
-        display: block;
+    #footer {
+        height: 150px;
       }
+
+    #footerLogo{
+        width: 15%;
+        height: auto;
+        float: right;
+        padding-right: 20px;
+        margin-top: -30px;
+    }  
 }
 
 @media (min-width: 769px) and (max-width:1023px){
@@ -484,6 +500,18 @@ html, body {
         margin-top: 0px;
         z-index: 0;
     }
+
+    #footer {
+        height: 150px;
+      }
+
+    #footerLogo{
+        width: 10%;
+        height: auto;
+        float: right;
+        padding-right: 20px;
+        margin-top: -40px;
+    }    
       
 }
 
@@ -738,4 +766,16 @@ html, body {
     .h2Lighterere{
         font-size: 50px;
     }
+
+    #footer {
+        height: 250px;
+      }
+
+    #footerLogo{
+        width: 7%;
+        height: auto;
+        float: right;
+        padding-right: 20px;
+        margin-top: -35px;
+    }    
 }
