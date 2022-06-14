@@ -46,8 +46,8 @@ window.addEventListener('scroll', function() {
     console.log( window.matchMedia("(min-width:679px)"));
     console.log(window.matchMedia);
     if(window.matchMedia("(max-width:768px)").matches){
-    bild.style.height = 300 - (window.pageYOffset) * 0.2 + "px";  
-    text.style.marginTop = -250 - (window.pageYOffset) * 0.2 + "px";
+    bild.style.height = 350 - (window.pageYOffset) * 0.2 + "px";  
+    text.style.marginTop = -350 - (window.pageYOffset) * 0.2 + "px";
     wechselBild.style.marginTop = - (window.pageYOffset) * 0.14 + "px";
     }
     else if(window.matchMedia("(min-width:679px) and (max-width:1023px)").matches){

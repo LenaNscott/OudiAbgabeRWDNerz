@@ -224,7 +224,7 @@ html, body {
     }
 
     #infos{
-        height: 300px;
+        height: 350px;
         position: absolute;
         margin-top: -10px;
         padding: 0%;
@@ -263,7 +263,7 @@ html, body {
         width: 250px;
         height: auto;
         padding: 20px;
-        padding-top: 10px;
+        padding-top: -350px;
         margin-left: 40px;
     }
 
@@ -494,6 +494,10 @@ html, body {
         height: 100%;
     }
 
+    .paddingBottom{
+        margin-bottom: -400px;
+    }
+
     #bildProdukt{
         margin-top: -100px;
         content: url("Medien/weisseKugelGebaudeHorizontal.jpg");
@@ -648,7 +652,7 @@ html, body {
     }
 
     #textZweiButton{
-        margin-top: 300px;
+        margin-top: 50px;
         padding-right: 20px;
         width: 50%;
     }
