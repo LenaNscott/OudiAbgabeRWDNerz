@@ -276,7 +276,7 @@ html, body {
     }
 
     #vorstellungDiv{
-        margin-top: 30px;
+        margin-top: 100px;
     }
 
     .h2Lighterere{
@@ -415,7 +415,7 @@ html, body {
     }
 
     #imgWiederholenPlay{
-        margin-top: 300px;
+        margin-top: 500px;
     }
 
     #bildProduktKugel{
@@ -461,8 +461,9 @@ html, body {
     #buttonStart{
         text-align: center;
         vertical-align: middle;
-        bottom: 800px;
         z-index: 2;
+        margin-bottom: 100px;
+        position: absolute;
     }
 
     #divKugelTextButton{
