@@ -340,6 +340,7 @@ html, body {
 
     #footer {
         height: 150px;
+        font-size: 12px;
       }
 
     #footerLogo{
@@ -418,6 +419,10 @@ html, body {
         margin-top: 500px;
     }
 
+    .paddingBottom{
+        margin-bottom: -500px;
+    }
+
     #bildProduktKugel{
         z-index: 0;
     }
@@ -462,8 +467,7 @@ html, body {
         text-align: center;
         vertical-align: middle;
         z-index: 2;
-        margin-bottom: 100px;
-        position: absolute;
+        bottom: 850px;
     }
 
     #divKugelTextButton{
